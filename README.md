@@ -3,6 +3,3 @@
   : Online Job Board
 
 
-- Task 2
-  : Online Quize Maker
-        
