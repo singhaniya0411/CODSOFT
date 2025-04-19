@@ -1,0 +1,15 @@
+<svg width="270" height="70" viewBox="0 0 270 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#006D77"></stop>
+      <stop offset="100%" stop-color="#0A4D68"></stop>
+    </linearGradient>
+    <filter id="subtle-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="1" stdDeviation="1" flood-color="#003844" flood-opacity="0.5"></feDropShadow>
+    </filter>
+  </defs>
+  
+  <text x="15" y="45" font-family="Poppins, sans-serif" font-weight="600" font-size="36" fill="url(#gradient)" filter="url(#subtle-shadow)">
+    Quick<tspan font-weight="700">Genius</tspan>
+  </text>
+</svg>
