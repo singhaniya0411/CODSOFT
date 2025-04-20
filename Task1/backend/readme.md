@@ -24,7 +24,6 @@ job-board-backend/
 │   └── db.js
 │
 ├── controllers/            # Route controllers
-│   ├── authController.js
 │   ├── jobController.js
 │   └── userController.js
 │
