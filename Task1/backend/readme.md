@@ -28,8 +28,9 @@ job-board-backend/
 │   └── userController.js
 │
 ├── middleware/             # Middleware functions
-│   ├── authMiddleware.js
-│   └── errorHandler.js
+│   ├── auth.js
+│   ├── upload.js
+│   └── restrictAuth.js
 │
 ├── models/                 # Mongoose schemas
 │   ├── Job.js
