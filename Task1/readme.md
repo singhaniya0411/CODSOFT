@@ -24,22 +24,23 @@ job-board-frontend/
 ├── src/
 │   ├── components/          # Reusable components
 │   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── JobCard.jsx
-│   │   ├── JobForm.jsx
-│   │   └── ProtectedRoute.jsx
+│   │   ├── PostJob.jsx
+│   │   └── ApplyJob.jsx
 │   │
 │   ├── pages/               # Application pages
 │   │   ├── Home.jsx
 │   │   ├── Login.jsx
-│   │   ├── Register.jsx
-│   │   ├── Dashboard.jsx
+│   │   ├── Blog.jsx
+│   │   ├── SignUp.jsx
+│   │   ├── CandidateDashboard.jsx
+│   │   ├── EmployerDashboard.jsx
 │   │   ├── JobDetails.jsx
-│   │   ├── PostJob.jsx
-│   │   └── EditJob.jsx
+│   │   ├── CreateJob.jsx
+│   │   ├── JobList.jsx
+│   │   └── Contact.jsx
 │   │
 │   ├── context/             # Auth context
-│   │   └── AuthContext.jsx
+│   │   └── Context.jsx
 │   │
 │   ├── App.jsx              # Root component
 │   └── main.jsx             # Entry point
