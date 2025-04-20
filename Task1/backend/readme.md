@@ -34,6 +34,7 @@ job-board-backend/
 │
 ├── models/                 # Mongoose schemas
 │   ├── Job.js
+│   ├── applicationModel.js
 │   └── User.js
 │
 ├── routes/                 # API routes
