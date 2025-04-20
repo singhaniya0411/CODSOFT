@@ -59,8 +59,9 @@ job-board-frontend/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/job-board-frontend.git
-cd job-board-frontend
+git clone https://github.com/singhaniya0411/CODSOFT.git
+cd Task1
+cd frontend
 ```
 
 ### 2️⃣ Install dependencies
