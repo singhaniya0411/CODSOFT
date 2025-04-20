@@ -38,7 +38,6 @@ job-board-backend/
 │   └── User.js
 │
 ├── routes/                 # API routes
-│   ├── authRoutes.js
 │   ├── jobRoutes.js
 │   └── userRoutes.js
 │
