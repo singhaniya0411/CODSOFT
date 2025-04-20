@@ -55,8 +55,9 @@ job-board-backend/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/job-board-backend.git
-cd job-board-backend
+git clone https://github.com/singhaniya0411/CODSOFT.git
+cd Task 1
+cd backend
 ```
 
 ### 2️⃣ Install dependencies
@@ -91,9 +92,6 @@ The backend server will be live at:
 - `POST /api/auth/register` – Register new user
 - `POST /api/auth/login` – Login user and return token
 
-### 👤 Users
-
-- `GET /api/users/me` – Get logged-in user data
 
 ### 💼 Jobs
 
