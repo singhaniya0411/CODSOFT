@@ -1,0 +1,133 @@
+# 💼 JobBoard - Frontend (React.js + Tailwind CSS)
+
+**JobBoard** is a responsive job listing platform built using modern web technologies. This frontend app allows job seekers to browse and apply for jobs, while recruiters can manage listings with ease.
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **State Management**: Context API
+- **API Handling**: Axios
+- **Authentication**: JWT-based
+
+---
+
+## 📁 Folder Structure
+
+```
+job-board-frontend/
+├── public/                  # Static assets
+│
+├── src/
+│   ├── components/          # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── JobCard.jsx
+│   │   ├── JobForm.jsx
+│   │   └── ProtectedRoute.jsx
+│   │
+│   ├── pages/               # Application pages
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── JobDetails.jsx
+│   │   ├── PostJob.jsx
+│   │   └── EditJob.jsx
+│   │
+│   ├── context/             # Auth context
+│   │   └── AuthContext.jsx
+│   │
+│   ├── App.jsx              # Root component
+│   └── main.jsx             # Entry point
+│
+├── .env                     # Env variables
+├── package.json             # Dependencies
+├── tailwind.config.js       # Tailwind config
+├── vite.config.js           # Vite config
+└── README.md                # Documentation
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/job-board-frontend.git
+cd job-board-frontend
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Create `.env` file
+
+```env
+VITE_BACKEND_URL=http://localhost:5000
+```
+
+### 4️⃣ Run the app
+
+```bash
+npm run dev
+```
+
+Visit: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## ✨ Features
+
+- 🧑‍💼 Recruiter dashboard
+- 👥 Job seeker experience
+- 🔐 Protected routes with JWT
+- 📄 Job post & edit forms
+- 📱 Responsive design
+
+---
+
+## 🛠 Deployment
+
+### Build
+
+```bash
+npm run build
+```
+
+### Deploy (Vercel)
+
+```bash
+vercel deploy
+```
+
+### Deploy (Netlify)
+
+```bash
+netlify deploy --prod
+```
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork the repo and make a pull request.
+
+---
+
+## 💬 Questions?
+
+Open an issue or reach out! 🚀
