@@ -3,7 +3,6 @@
 **JobBoard** is a responsive job listing platform built using modern web technologies. This frontend app allows job seekers to browse and apply for jobs, while recruiters can manage listings with ease.
 
 ---
-
 ## 🚀 Tech Stack
 
 - **Framework**: React.js (Vite)
